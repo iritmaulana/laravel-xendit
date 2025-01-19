@@ -23,7 +23,7 @@
                     <form action="{{ route('orders.store', $product) }}" method="POST" class="space-y-4">
                         @csrf
                         <div>
-                            <label class="block text-sm font-medium text-gray-700">Nama</label>
+                            <label class="block text-sm font-medium text-gray-700">Name</label>
                             <input type="text" name="customer_name" required
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
                         </div>
@@ -34,7 +34,7 @@
                         </div>
                         <button type="submit"
                             class="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                            Beli Sekarang
+                            Buy Now
                         </button>
                     </form>
                 </div>

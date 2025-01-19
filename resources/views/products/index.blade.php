@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <title>Daftar Produk</title>
+    <title>Product Lists</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-gray-100">
     <div class="container mx-auto px-4 py-8">
-        <h1 class="text-3xl font-bold mb-6">Daftar Produk</h1>
+        <h1 class="text-3xl font-bold mb-6">Product Lists</h1>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             @foreach ($products as $product)
@@ -21,7 +21,7 @@
                     <p class="text-lg font-bold mb-4">Rp {{ number_format($product->price, 0, ',', '.') }}</p>
                     <a href="{{ route('products.show', $product) }}"
                         class="block text-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                        Beli Sekarang
+                        Order Now
                     </a>
                 </div>
             @endforeach
