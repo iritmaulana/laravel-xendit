@@ -24,7 +24,7 @@ This project demonstrates the integration of Xendit payment gateway with Laravel
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/laravel-xendit.git
+git clone https://github.com/iritmaulana/laravel-xendit.git
 cd laravel-xendit
 ```
 
